@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100vh;
+    padding-top:120px ;
+}
+.encabezado{
+    width: 100vw;
+    display: flex;
+    background-image:url(/Img/background\ img.jpg);
+    justify-content:space-between;
+    position: fixed;
+    top:0;
+}
+.icono1 {
+    display: flex;
+    transition:2s ;
+} 
+.icono1:hover {
+    transform: rotate(360deg);
+}
+.nav {
+    margin-top:30px;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+.iniciar-sesion{
+    text-decoration:underline;
+}
+.botones {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(79, 79, 79);
+    height:30px;
+    border-radius: 10px; 
+    text-align: center;
+    font-family: arial;
+    font-weight: 500;
+}
+.botones:hover {
+    background-color: white;
+    transition: .5s ;
+}
+.registrarse {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(79, 79, 79);
+    height:30px;
+    border-radius: 10px; 
+    text-align: center;
+    font-family: arial;
+    font-weight: 500;
+}
+.registrarse:hover {
+    background-color: white;
+    transition: .5s;
+    
+}
+.titulo {
+    color: white;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.formulario {
+    width:250px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: gray;
+    height:auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 7px 13px 37px rgb(130, 129, 129);
+}
+.formulario__input {
+    margin: auto;
+}
+.campos:focus{
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(116, 116, 116));
+    outline: none;
+}
+.campos::placeholder{
+    color:black;
+}
+
+.campos {
+    width: 87%;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    border-radius: 5px;
+    border-style: none;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    
+}
+.enviar {
+    margin-left: 40%;
+    height:25px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px;
+    background-color:black;
+    color: white;
+    font-family: calibri;
+    margin-top: 5px;
+}
+.text-form {
+    text-align: center;
+    margin-bottom: 10px; 
+    font-family: calibri;
+    font-size: 30px;
+}
+.iniciar-sesion {
+    margin-bottom: 10px;
+    font-family: calibri;
+}
+a:link {
+    color: black;
+}
+.footer {
+    background-color: rgb(76, 76, 76);
+    margin-top:auto;
+    height: 3em;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer1 {
+    display:inline;
+}
+.logo_ig{
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.text_ig {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.icono_reciclaje {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin-left: 47%;
+}

@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    position: relative;
+    padding-bottom: 100px;
+    min-height: 100vh;
+    padding-top:120px ;
+}
+.encabezado{
+    width: 100vw;
+    display: flex;
+    background-image:url(/Img/background\ img.jpg);
+    justify-content:space-between;
+    position: fixed;
+    top:0;
+}
+
+.icono1 {
+    display: flex;
+    transition:2s ;
+} 
+.icono1:hover {
+    transform: rotate(360deg);
+}
+.nav {
+    margin-top:30px;
+    margin-right: 10px;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
+.link_comprar:hover{
+    background-color: white;
+    transition: .5s;
+}
+
+.iniciar-sesion{
+    text-decoration:underline;
+}
+.botones {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(79, 79, 79);
+    height:30px;
+    border-radius: 10px; 
+    text-align: center;
+    font-family: arial;
+    font-weight: 500;
+}
+.botones:hover {
+    background-color: white;
+    transition: .5s ;
+}
+.registrarse {
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(79, 79, 79);
+    height:30px;
+    border-radius: 10px; 
+    text-align: center;
+    font-family: arial;
+    font-weight: 500;
+}
+.registrarse:hover {
+    background-color: white;
+    transition: .5s;
+    
+}
+.titulo {
+    color: white;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+h2 {
+    height: 20px;
+    margin-top: 20px;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.526);
+}
+.cuadrado {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(153, 152, 152);
+    box-shadow: 5px 5px 20px white;
+    width: 25%;
+    padding:10px ;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 5px;
+    transition: .4s;
+}
+.cuadrado__text {
+    text-align: center;
+    font-size: 180%;
+
+}
+.img_ham {
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 20px;
+}
+.link_comprar {
+    display: block;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(36, 36, 36, 0.27);
+    border-radius: 5px;
+    margin-top: 4px;
+}
+.all {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+.cuadrado:hover {
+    font-size:105%;
+}
+a:link {
+    color: black;
+}
+.footer {
+
+    background-color: rgb(76, 76, 76);
+    margin-top:auto;
+    height: 3em;
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footer1 {
+    display:inline;
+}
+.logo_ig{
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+.text_ig {
+    position: absolute;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.icono_reciclaje {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin-left: 47%;
+}
